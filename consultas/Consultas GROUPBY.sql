@@ -27,13 +27,23 @@ WHERE CIDADE = 'Rio de Janeiro'
 GROUP BY ESTADO, BAIRRO
 ORDER BY BAIRRO;
 
-[0:00] Vamos falar agora de agrupar o resultado. A gente viu no vídeo anterior como eu ordeno a resposta, eu agora vou falar como eu agrupo a resposta.
+[0:00] Vamos falar agora de agrupar o resultado. 
+A gente viu no vídeo anterior como eu ordeno a resposta,
+eu agora vou falar como eu agrupo a resposta.
 
-[0:11] E o que é agrupar a resposta? Agrupar a resposta é juntar campos que são repetidos e no caso dos campos numéricos quando eu faço essa junção eu posso aplicar uma fórmula matemática, que pode ser soma, média, máximo, mínimo valor.
+[0:11] E o que é agrupar a resposta?
+Agrupar a resposta é juntar campos que são repetidos 
+e no caso dos campos numéricos quando eu faço essa junção eu posso aplicar
+uma fórmula matemática, que pode ser soma, média, máximo, mínimo valor.
 
-[0:31] Bem, para gente entender melhor, olha aqui do lado, eu tenho uma tabela, campo X e campo Y, o campo X tem letras e o campo Y tem valores. Então se eu executar esse Select o campo X FROM a tabela, GROUP BY esse campo X, eu vou agrupar quem está igual, então esse A e esse A vão virar uma linha só e esse 2 e esse 1 vão virar o número 3.
+[0:31] Bem, para gente entender melhor, olha aqui do lado, eu tenho uma tabela,
+campo X e campo Y, o campo X tem letras e o campo Y tem valores. 
+Então se eu executar esse Select o campo X FROM a tabela, GROUP BY esse campo X,
+eu vou agrupar quem está igual, então esse A e esse A vão virar uma linha 
+só e esse 2 e esse 1 vão virar o número 3.
 
-[1:02] Por quê? Porque eu vou aplicar esta consulta aqui usando o SUM desse campo. Então a minha seleção vai ficar assim, a minha resposta vai ficar assim: o A vai ficar com 3, o B com 6, o C com 8 e D com 3.
+[1:02] Por quê? Porque eu vou aplicar esta consulta aqui usando o SUM desse campo. 
+Então a minha seleção vai ficar assim, a minha resposta vai ficar assim: o A vai ficar com 3, o B com 6, o C com 8 e D com 3.
 
 [1:25] Eu posso aplicar então lá no momento do GROUP BY não somente soma, que é SUM, mas eu posso aplicar o máximo, o mínimo, a média e o COUNT, ele vai contar o número de linhas que existem no momento que eu agrupo as informações.
 
